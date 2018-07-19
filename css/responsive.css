@@ -1,19 +1,19 @@
 @media screen and (min-width: 1155px){
+/* Dass Alli 4 Bilder nebenand sind */
    .responsivebreak {
 		 display: none;
 	 }
 }
 
 @media screen and (min-width: 700px){
+  /* Dass 2 Bilder nebenand sind */
    .responsivebreak2 {
-		 display: none;
-	 }
-	 .teambernbreak {
 		 display: none;
 	 }
 }
 
 @media screen and (max-width: 1155px){
+  /* D'Breiti vode 4 Bilder */
 	.column {
 		display: inline-block;
 		width: 35%;
@@ -22,20 +22,14 @@
 		padding: 5px;
 		border: 1px solid rgba(0,0,0,0);
 	}
+  /* Schriftart bide Bilder wird grösser */
 	#hi {
 		font-size: 16px;
 	}
 }
 
-@media screen and (max-width: 950px){
-	.teambern {
-		height: 70px;
-		line-height: 70px;
-		font-size: 20px;
-	}
-}
-
 @media only screen and (max-width: 900px) {
+  /* D'Breiti vode Navigation wird grösser */
   header nav {
     width: 50%;
     left: -50%;
@@ -43,6 +37,7 @@
 }
 
 @media screen and (max-width: 700px){
+  /* D'Breiti vode 4 Bilder */
 	.column {
 		display: inline-block;
 		width: 65%;
@@ -51,17 +46,20 @@
 		padding: 5px;
 		border: 1px solid rgba(0,0,0,0);
 	}
+  /* Schriftart bide Bilder wird grösser */
 	#hi {
 		font-size: 18px;
 	}
 }
 
 @media only screen and (max-width: 570px) {
+  /* D'Breiti vode Navigation wird grösser */
   header nav {
     width: 90%;
     left: -90%;
   }
   #h1break {
+    /* "Junioren Curling Team Bern wird en Enter iigfüegt" */
     display: inline-block;
   }
 }
