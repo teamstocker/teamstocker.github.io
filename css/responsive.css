@@ -55,8 +55,8 @@
 @media only screen and (max-width: 570px) {
   /* D'Breiti vode Navigation wird grösser */
   header nav {
-    width: 100%;
-    left: -100%;
+    width: 110%;
+    left: -110%;
   }
   #h1break {
     /* "Junioren Curling Team Bern wird en Enter iigfüegt" */
