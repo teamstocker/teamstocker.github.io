@@ -1,0 +1,67 @@
+@media screen and (min-width: 1155px){
+   .responsivebreak {
+		 display: none;
+	 }
+}
+
+@media screen and (min-width: 700px){
+   .responsivebreak2 {
+		 display: none;
+	 }
+	 .teambernbreak {
+		 display: none;
+	 }
+}
+
+@media screen and (max-width: 1155px){
+	.column {
+		display: inline-block;
+		width: 35%;
+		background: #808080;
+		margin: 0 15px 15px 15px;
+		padding: 5px;
+		border: 1px solid rgba(0,0,0,0);
+	}
+	#hi {
+		font-size: 16px;
+	}
+}
+
+@media screen and (max-width: 950px){
+	.teambern {
+		height: 70px;
+		line-height: 70px;
+		font-size: 20px;
+	}
+}
+
+@media only screen and (max-width: 900px) {
+  header nav {
+    width: 50%;
+    left: -50%;
+  }
+}
+
+@media screen and (max-width: 700px){
+	.column {
+		display: inline-block;
+		width: 65%;
+		background: #808080;
+		margin: 0 15px 15px 15px;
+		padding: 5px;
+		border: 1px solid rgba(0,0,0,0);
+	}
+	#hi {
+		font-size: 18px;
+	}
+}
+
+@media only screen and (max-width: 570px) {
+  header nav {
+    width: 90%;
+    left: -90%;
+  }
+  #h1break {
+    display: inline-block;
+  }
+}

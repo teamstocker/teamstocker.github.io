@@ -1,0 +1,167 @@
+body, html {
+  width: 100%;
+  margin: 0;
+  font-family: Verdana, sans-serif;
+}
+/*                                NAVIGATIONS SHIT  */
+.backgroundimage {
+  width: 100%;
+  height: 300px;
+  background: url("../img/titelbild.png") center center;
+  background-size: cover;
+}
+.svgbild {
+  position: absolute;
+  left: 0; top: 252px;
+  height: 50px;
+  width: 100%;
+  background: url("../img/trenner.svg#svgView(preserveAspectRatio(none))");
+  background-size: 100% 100%;
+}
+#cblogo {
+  height: 40px;
+  width: 75px;
+  position: fixed;
+  top: 18px; right: 30px;
+}
+#cblogo:hover {
+  opacity: 0;
+}
+#cblogohover {
+  height: 40px;
+  width: 75px;
+  position: fixed;
+  top: 18px; right: 30px;
+}
+.navbalken {
+  display: block;
+  width: 100%;
+  height: 80px;
+  background: #000000;
+  opacity: 0.8;
+  position: fixed;
+  top: 0; left: 0;
+}
+.zeigebitte {
+  display: block;
+}
+.menu-icon {
+  cursor: pointer;
+  display: block;
+  position: fixed;
+  left: 20px;
+  top: 20px;
+  z-index: 9999;
+}
+.menu-linien {
+  width: 35px;
+  height: 5px;
+  background-color: #c8c8c8;
+  margin: 6px 0;
+}
+.inemitdem {
+  animation: nachRechts 0.5s forwards;
+}
+.usemitdem {
+  animation: nachLinks 0.5s forwards;
+}
+@keyframes nachRechts {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(99%);
+  }
+}
+@keyframes nachLinks {
+  0% {
+    transform: translateX(99%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+header nav {
+  position: fixed;
+  top: 0;
+  left: -40%;
+  width: 40%;
+  height: 100%;
+  padding-top: 80px;
+  background: #292929;
+}
+ul {
+  list-style: none;
+}
+li::before {
+    content: "---";
+    color: #292929;
+    font-weight: bold;
+}
+header nav ul a li {
+  border-bottom: 1px solid black;
+}
+header nav ul a {
+  color: #c8c8c8;
+  font-weight: bold;
+  text-decoration: none;
+}
+header nav ul a:hover {
+  color: #d84949;
+}
+header nav ul li {
+  padding: 10px 0px 10px 20px;
+}
+u {
+  text-decoration: none;
+  border-bottom: 3px solid #d84949;
+}
+/*                                INHALTICHE SHIT  */
+h1 {
+  text-align: center;
+}
+hr {
+  border: none;
+  border-top: 1px solid #cc2020;
+  width: 80%;
+  margin: 0 auto;
+}
+.content {
+  width: 80%;
+  margin: 0 auto;
+  padding: 30px 0 0 0;
+  text-align: center;
+}
+.column {
+	display: inline-block;
+	width: 20%;
+	background: grey;
+	margin: 0 15px 15px 15px;
+	padding: 5px;
+	border: 1px solid rgba(0,0,0,0);
+}
+#hi {
+	display: block;
+	font-size: 18px;
+	width: 100%;
+	padding: 10px 0;
+	border: 1px solid rgba(0,0,0,0);
+	transition-duration: 0.3s;
+	text-align: center;
+	color: white;
+	text-decoration: none;
+	font-weight: bolder;
+}
+#hi:hover {
+	color: #cc2020;
+	background: white;
+	border: 1px solid black;
+}
+::selection {
+  background: #d84949;
+  color: #ffffff;
+}
+/*                                RESPONSIVE SHIT  */
+#h1break {
+  display: none;
+}
