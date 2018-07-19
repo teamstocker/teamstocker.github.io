@@ -1,7 +1,7 @@
-
 $(document).ready(function() {
     $('.menu-icon').on("click", function() {
         nav_rein_raus();
+        $("header span").toggleClass("gedreht");
     });
 });
 function nav_rein_raus() {
