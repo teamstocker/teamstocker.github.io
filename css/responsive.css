@@ -17,7 +17,7 @@
 	.column {
 		display: inline-block;
 		width: 35%;
-		background: #808080;
+		background: #c8c8c8;
 		margin: 0 15px 15px 15px;
 		padding: 5px;
 		border: 1px solid rgba(0,0,0,0);
@@ -41,7 +41,7 @@
 	.column {
 		display: inline-block;
 		width: 65%;
-		background: #808080;
+		background: #c8c8c8;
 		margin: 0 15px 15px 15px;
 		padding: 5px;
 		border: 1px solid rgba(0,0,0,0);
