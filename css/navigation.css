@@ -34,7 +34,6 @@
   position: fixed;
   left: 20px;
   top: 20px;
-  transition-duration: 0.5s;
   z-index: 9999;
 }
 div.normal1, div.normal2, div.normal3 {

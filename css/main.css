@@ -3,7 +3,7 @@ body, html {
   margin: 0;
   font-family: Verdana, sans-serif;
 }
-/*                                NAVIGATIONS SHIT  */
+/*                                HEADER SHIT  */
 .backgroundimage {
   width: 100%;
   height: 300px;
@@ -21,6 +21,11 @@ body, html {
 /*                                INHALTICHE SHIT  */
 h1 {
   text-align: center;
+}
+h2 {
+  text-align: center;
+  font-size: 20px;
+  color: #cc2020;
 }
 p {
   width: 80%;
@@ -57,6 +62,27 @@ hr {
 ::selection {
   background: #d84949;
   color: #ffffff;
+}
+::-moz-selection {
+  background: #d84949;
+  color: #ffffff;
+}
+/*                                SAISONPLAN SHIT  */
+table {
+  border-spacing: 0px;
+}
+td {
+  text-align: left;
+  border-bottom: 1px solid #000000;
+}
+#sptrenner {
+	height: 15px;
+	border-bottom: 1px solid #FFF;
+}
+.spdatum {
+    text-align: right;
+    padding-right: 25px;
+    font-weight: bold;
 }
 /*                                FOOTER SHIT  */
 footer {
