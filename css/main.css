@@ -1,3 +1,10 @@
+/*                                VARIABLEN DEKLARATION  */
+:root {
+  --rot_primaer:   #cc2020;
+  --rot_sekundaer: #d84949;
+  --schwarz:       #000000;
+  --weiss:         #ffffff;
+}
 body, html {
   width: 100%;
   margin: 0;
@@ -25,23 +32,22 @@ h1 {
 h2 {
   text-align: center;
   font-size: 20px;
-  color: #cc2020;
+  color:      var(--rot_primaer);
 }
-p {
+p.welcomingtext {
   width: 80%;
   margin: 0 auto;
   text-align: justify;
 }
 hr {
   border: none;
-  border-top: 1px solid #cc2020;
+  border-top: 1px solid var(--rot_primaer);
   width: 80%;
   margin: 20px auto;
 }
 .content {
   width: 80%;
   margin: 0 auto;
-  text-align: center;
 }
 #bildtext {
 	display: block;
@@ -50,22 +56,22 @@ hr {
 	border: 1px solid rgba(0,0,0,0);
 	transition-duration: 0.3s;
 	text-align: center;
-	color: #000000;
+	color:      var(--schwarz);
 	text-decoration: none;
 	font-weight: bolder;
 }
 #bildtext:hover {
-	color: #cc2020;
-	background: #ffffff;
-	border: 1px solid #000000;
+	color:      var(--rot_primaer);
+	background: var(--weiss);
+	border: 1px solid $schwarz;
 }
 ::selection {
-  background: #d84949;
-  color: #ffffff;
+  background: var(--rot_sekundaer);
+  color:      var(--weiss);
 }
 ::-moz-selection {
-  background: #d84949;
-  color: #ffffff;
+  background: var(--rot_sekundaer) ;
+  color:      var(--weiss);
 }
 /*                                SAISONPLAN SHIT  */
 table {
@@ -73,11 +79,11 @@ table {
 }
 td {
   text-align: left;
-  border-bottom: 1px solid #000000;
+  border-bottom: 1px solid var(--schwarz);
 }
 #sptrenner {
 	height: 15px;
-	border-bottom: 1px solid #ffffff;
+	border-bottom: 1px solid var(--weiss);
 }
 .spdatum {
     text-align: right;
@@ -89,7 +95,7 @@ footer {
   height: 30px;
   width: 100%;
   line-height: 30px;
-  background: #000000;
+  background: var(--schwarz);
   opacity: 0.8;
 }
 footer p {
@@ -103,7 +109,7 @@ footer p a {
   color: #a8a8a8;
 }
 footer p a:hover {
-  border-bottom: 1px solid #ffffff;
+  border-bottom: 1px solid var(--weiss);
 }
 /*                                RESPONSIVE SHIT  */
 #h1break {
