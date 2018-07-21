@@ -28,14 +28,6 @@
 	}
 }
 
-@media only screen and (max-width: 900px) {
-  /* D'Breiti vode Navigation wird grösser */
-  header nav {
-    width: 50%;
-    left: -50%;
-  }
-}
-
 @media screen and (max-width: 700px){
   /* D'Breiti vode 4 Bilder */
 	.column {
@@ -52,12 +44,7 @@
 	}
 }
 
-@media only screen and (max-width: 570px) {
-  /* D'Breiti vode Navigation wird grösser */
-  header nav {
-    width: 110%;
-    left: -110%;
-  }
+@media screen and (max-width: 570px) {
   #h1break {
     /* "Junioren Curling Team Bern wird en Enter iigfüegt" */
     display: inline-block;
