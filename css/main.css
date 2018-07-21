@@ -20,14 +20,6 @@ body, html {
   background: url("../img/titelbild.png") center center;
   background-size: cover;
 }
-.svgbild {
-  position: absolute;
-  left: 0; top: 252px;
-  height: 50px;
-  width: 100%;
-  background: url("../img/trenner.svg#svgView(preserveAspectRatio(none))");
-  background-size: 100% 100%;
-}
 /*                                INHALTICHE SHIT  */
 h1 {
   text-align: center;
