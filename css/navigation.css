@@ -34,7 +34,7 @@
 .zeigebitte {
   display: block;
 }
-.menu-icon {
+#menu {
   cursor: pointer;
   display: block;
   position: fixed;
@@ -42,7 +42,7 @@
   top: 20px;
   z-index: 9999;
 }
-div.normal1, div.normal2, div.normal3 {
+div#normal1, div#normal2, div#normal3 {
   width: 35px;
   height: 5px;
   background-color: #c8c8c8;

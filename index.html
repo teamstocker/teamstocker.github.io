@@ -10,7 +10,6 @@
   <link href="css/main.css" rel="Stylesheet">
   <link href="css/responsive.css" rel="Stylesheet">
   <link href="css/navigation.css" rel="Stylesheet">
-  <script src="js/necessary.js"></script>
   <script src="js/scripts.js"></script>
 </head>
 
@@ -18,13 +17,13 @@
   <header>
     <div class="backgroundimage"></div>
     <div class="navbalken"></div>
-    <div class="menu-icon">
-      <div class="normal1"></div>
-      <div class="normal2"></div>
-      <div class="normal3"></div>
+    <div id="menu" onclick="myFunction()">
+      <div id="normal1"></div>
+      <div id="normal2"></div>
+      <div id="normal3"></div>
     </div>
     <svg><polygon id="zeichnebitte"/></svg>
-    <nav>
+    <nav id="navfuerjs">
       <ul>
         <a href="#"><li><u>Home</u></li></a>
         <a href="#"><li>Team

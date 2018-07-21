@@ -22,6 +22,16 @@ body, html {
   background: url("../img/titelbild.png") center center;
   background-size: cover;
 }
+svg {
+  height: 80px;
+  width: 100%;
+  position: absolute;
+  left: 0; top: 250px;
+}
+polygon {
+  fill: #ffffff;
+  /* Us irgendeim Grund chame bi fill kei Variable bruche... */
+}
 /*                                INHALTICHE SHIT  */
 h1 {
   text-align: center;
@@ -118,22 +128,4 @@ footer p a:hover {
 	background: #c8c8c8;
 	margin: 0 15px 15px 15px;
 	padding: 5px;
-}
-
-
-
-
-svg {
-  height: 80px;
-  width: 100%;
-  position: absolute;
-  left: 0; top: 250px;
-}
-polygon {
-  fill: #ffffff;
-  // Us irgendeim Grund chame bi fill kei Variable bruche... */
-}
-#test2 {
-  height: 20px;
-  width: 100px;
 }
