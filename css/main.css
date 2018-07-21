@@ -1,3 +1,6 @@
+// Start des Projekts: 15.07.2018
+// Autor: 100% Marcel
+// Kommentar: Extra JS & de Umgang mit Variable für das Projekt glernt. Viel zviel Zit investiert.
 /*                                VARIABLEN DEKLARATION  */
 :root {
   --rot_primaer:   #cc2020;
@@ -121,4 +124,22 @@ footer p a:hover {
 	background: #c8c8c8;
 	margin: 0 15px 15px 15px;
 	padding: 5px;
+}
+
+
+
+
+svg {
+  height: 80px;
+  width: 100%;
+  position: absolute;
+  left: 0; top: 250px;
+}
+polygon {
+  fill: #ffffff;
+  // Us irgendeim Grund chame bi fill kei Variable bruche... */
+}
+#test2 {
+  height: 20px;
+  width: 100px;
 }

@@ -1,3 +1,9 @@
+:root {
+  --rot_primaer:   #cc2020;
+  --rot_sekundaer: #d84949;
+  --schwarz:       #000000;
+  --weiss:         #ffffff;
+}
 #cblogo {
   height: 40px;
   width: 75px;
