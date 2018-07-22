@@ -32,3 +32,29 @@ function nav_ine_use() {
     nav.classList.add("inemitdem");
   }
 }
+/*
+Bilder wo uf de Teamsite sind, werded je nach Bildschirmgrössi veränderet
+*/
+window.onresize = neueBildbreite;
+window.onload = neueBildbreite;
+function neueBildbreite() {
+  Bildbreite = window.innerWidth;
+  if (Bildbreite > 900) {
+    document.getElementById("teambild").setAttribute("width", "300px")
+    document.getElementById("teambild2").setAttribute("width", "300px")
+    document.getElementById("teambild3").setAttribute("width", "300px")
+    document.getElementById("teambild4").setAttribute("width", "300px")
+  }
+  else if (Bildbreite < 900 && Bildbreite > 600){
+    document.getElementById("teambild").setAttribute("width", "75%")
+    document.getElementById("teambild2").setAttribute("width", "75%")
+    document.getElementById("teambild3").setAttribute("width", "75%")
+    document.getElementById("teambild4").setAttribute("width", "75%")
+  }
+  else {
+    document.getElementById("teambild").setAttribute("width", "50%")
+    document.getElementById("teambild2").setAttribute("width", "50%")
+    document.getElementById("teambild3").setAttribute("width", "50%")
+    document.getElementById("teambild4").setAttribute("width", "50%")
+  }
+}
