@@ -108,18 +108,18 @@ hr.ganzobe {
 table {
   border-spacing: 0px;
 }
-table#saisonplan ~ tr ~ td {
+#saisonplan tr td {
   text-align: left;
   border-bottom: 1px solid var(--schwarz);
 }
 #sptrenner {
 	height: 15px;
-	border-bottom: 1px solid var(--weiss);
+	border-bottom: 1px solid var(--weiss)!important;
 }
 .spdatum {
-    text-align: right;
-    padding-right: 25px;
-    font-weight: bold;
+    text-align: right!important;
+    padding-right: 25px!important;
+    font-weight: bold!important;
 }
 /*                                FOOTER SHIT  */
 footer {
