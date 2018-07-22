@@ -42,11 +42,17 @@
 	#bildtext {
 		font-size: 18px;
 	}
+  footer p {
+    font-size: 11px;
+  }
 }
 
 @media screen and (max-width: 570px) {
   #h1break {
     /* "Junioren Curling Team Bern wird en Enter iigfüegt" */
     display: inline-block;
+  }
+  footer p {
+    font-size: 8px;
   }
 }
