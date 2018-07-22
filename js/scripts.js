@@ -8,7 +8,6 @@ function displayWindowSize() {
 };
 
 /*
-Okay, für die Funktion hani extrem lang gha. Umso stolzer, dassis ohni externi Library anebracht han!!!!!!
 die erste 3 Ziile mached, dass s'Hamburgermenu zumne X wird.
 De Rest füegt oder entfernt d'Animation zum NAV inetue oder usetue
 */
