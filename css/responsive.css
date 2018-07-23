@@ -55,4 +55,7 @@
   footer p {
     font-size: 8px;
   }
+  input[type="submit"], input[type="reset"] {
+    margin: 10px;
+  }
 }

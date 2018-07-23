@@ -34,7 +34,7 @@ function nav_ine_use() {
 }
 /*
 Bilder wo uf de Teamsite sind, werded je nach Bildschirmgrössi veränderet
-*/
+
 window.onresize = neueBildbreite;
 window.onload = neueBildbreite;
 function neueBildbreite() {
@@ -58,3 +58,4 @@ function neueBildbreite() {
     document.getElementById("teambild4").setAttribute("width", "50%")
   }
 }
+*/

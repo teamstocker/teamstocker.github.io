@@ -10,6 +10,7 @@ hours_invested: too many.
   --schwarz:       #000000;
   --weiss:         #ffffff;
 }
+
 body, html {
   width: 100%;
   margin: 0;
@@ -152,4 +153,46 @@ footer p a:hover {
 	background: #c8c8c8;
 	margin: 0 15px 15px 15px;
 	padding: 5px;
+}
+/*                                KONTAKTFORMULAR UND SO..  */
+form {
+  width: 60%;
+  margin: 0 auto;
+}
+label {
+  display: block;
+  text-align: left;
+  font-weight: bolder;
+}
+input[type="text"], textarea {
+  position: relative;
+  top: -10px;
+  margin: 0 0 20px 0;
+  padding: 3px;
+  font-size: 17px;
+  width: 100%;
+  border: 1px solid var(--schwarz);
+}
+textarea {
+  height: 140px;
+  resize: none;
+}
+input[type="text"]:focus, textarea:focus {
+  outline: 2px solid var(--rot_sekundaer);
+}
+input[type="submit"], input[type="reset"] {
+  font-size: 17px;
+  padding: 8px 20px;
+  margin: 0 10px;
+  color: var(--schwarz);
+  background: rgba(0,0,0,0);
+  box-shadow: none;
+  border: none;
+  border-bottom: 3px solid var(--rot_sekundaer);
+  cursor: pointer;
+  transition-duration: 0.3s;
+}
+input[type="submit"]:hover, input[type="reset"]:hover {
+  color: white;
+  background: var(--rot_sekundaer);
 }
