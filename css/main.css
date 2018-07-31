@@ -22,16 +22,7 @@ body, html {
   height: 300px;
   background: url("../img/titelbild.png") center center;
   background-size: cover;
-}
-svg {
-  height: 80px;
-  width: 100%;
-  position: absolute;
-  left: 0; top: 250px;
-}
-polygon {
-  fill: #ffffff;
-  /* Us irgendeim Grund chame bi fill kei Variable bruche... */
+  clip-path: polygon(0 0, 100% 0, 100% calc(100% - 4vw), 0 100%);
 }
 /*                                INHALTICHE SHIT  */
 h1 {
@@ -75,7 +66,7 @@ hr.ganzobe {
 #bildtext:hover {
 	color:      var(--rot_primaer);
 	background: var(--weiss);
-	border: 1px solid $schwarz;
+	border: 1px solid var(--schwarz);
 }
 
 ::selection {
