@@ -113,6 +113,14 @@ table {
     padding-right: 25px!important;
     font-weight: bold!important;
 }
+td > a {
+  color: #888888;
+  font-weight: 600;
+  text-decoration: none;
+}
+td > a:hover {
+  color: var(--schwarz)
+}
 /*                                FOOTER SHIT  */
 footer {
   height: 30px;
