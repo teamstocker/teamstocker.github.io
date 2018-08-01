@@ -115,11 +115,11 @@ table {
 }
 td > a {
   color: #888888;
-  font-weight: 600;
   text-decoration: none;
 }
 td > a:hover {
-  color: var(--schwarz)
+  color: var(--schwarz);
+  text-decoration: underline;
 }
 /*                                FOOTER SHIT  */
 footer {
