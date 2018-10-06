@@ -51,7 +51,9 @@
 .nope {
   display: none!important;
 }
-div#normal1, div#normal2, div#normal3 {
+div#normal1,
+div#normal2,
+div#normal3 {
   width: 35px;
   height: 5px;
   background-color: #c8c8c8;
@@ -69,7 +71,9 @@ div.gedreht3 {
   background-color: #555555;
   transform: matrix(0.85, -0.8, 0.7, 0.7, 0, -11);
 }
-#menu:hover>#normal1, #menu:hover>#normal2, #menu:hover>#normal3 {
+#menu:hover > #normal1,
+#menu:hover > #normal2,
+#menu:hover > #normal3 {
   background-color: var(--rot_sekundaer);
 }
 .inemitdem {
@@ -119,6 +123,7 @@ header nav ul a {
   color: #c8c8c8;
   font-weight: bold;
   text-decoration: none;
+  transition-duration: 0.3s;
 }
 header nav ul a:hover {
   color: var(--rot_sekundaer);
