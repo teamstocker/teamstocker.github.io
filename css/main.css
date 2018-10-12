@@ -66,18 +66,18 @@ hr.ganzobe {
 	font-weight: bolder;
 }
 #bildtext:hover {
-	color:      var(--rot_primaer);
+	color: var(--rot_primaer);
 	background: var(--weiss);
 	border: 1px solid var(--schwarz);
 }
 
 ::selection {
-  background: var(--rot_sekundaer);
-  color:      var(--weiss);
+  background: var(--weiss);
+  color: var(--rot_sekundaer);
 }
 ::-moz-selection {
-  background: var(--rot_sekundaer) ;
-  color:      var(--weiss);
+  background: var(--weiss);
+  color: var(--rot_sekundaer);
 
 }
 
